@@ -1,0 +1,39 @@
+.hoverGreenHeader {
+  color: var(--color-dark);
+  transition: 0.5s;
+}
+
+.hoverGreenHeader:hover {
+  color: var(--color-blue);
+}
+
+.darkmode .hoverGreenHeader:hover{
+  color: var(--color-darkBlue);
+}
+
+.hoverGreenIconCards1 {
+  color: var(--color-primary);
+  transition: 0.5s;
+}
+
+.hoverGreenIconCards1:hover {
+  color: var(--color-blue);
+}
+
+.hoverGreenIconCards2 {
+  color: var(--color-primary);
+  transition: 0.5s;
+}
+
+.hoverGreenIconCards2:hover {
+  color: var(--color-blue);
+}
+
+.hoverFilterIcon {
+  color: var(--color-dark);
+  transition: 0.5s;
+}
+
+.hoverFilterIcon:hover {
+  color: var(--color-blue);
+}

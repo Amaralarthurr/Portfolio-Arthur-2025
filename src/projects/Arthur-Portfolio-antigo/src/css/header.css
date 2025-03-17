@@ -1,0 +1,34 @@
+.dropdown-menu{
+    background-color: var(--color-card-blue);
+}
+
+.container .navbar-toggler {
+    box-shadow: none;
+    border-color: #fff;
+    
+}
+
+a {
+    & img {
+        width: 3rem;
+    }
+}
+
+.logo-hover {
+    color: var(--color-pink);
+    transition: .2s;
+}
+
+.logo-hover:hover {
+    scale: 1.1;
+    color: var(--color-pink);
+}
+
+.link-hvr{
+    color: var(--color-white);
+    transition: .15s;
+}
+
+.link-hvr:hover{
+    color: var(--color-pink);
+}
