@@ -14,3 +14,8 @@ body::-webkit-scrollbar-thumb {
 .h-1px{
   height: 1px;
 }
+
+.projects-btn{
+  box-shadow: 0 10px 20px rgba(225, 29, 72, 0.5),
+  0 2px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px #e11d48;
+}
