@@ -1,3 +1,7 @@
+*{
+  scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar {
   width: 8px;
 }
@@ -26,3 +30,5 @@ body::-webkit-scrollbar-thumb {
     margin-right: auto;
   }
 }
+
+

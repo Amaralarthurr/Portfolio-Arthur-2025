@@ -22,15 +22,15 @@
   </head>
 
   <body
-    class="bg-dark-bg bg-light-bg dar font-title font-bold flex flex-col justify-center"
+    class="bg-color-light dark:bg-dark-bg bg-light-bg dar font-title font-bold flex flex-col justify-center "
   >
     <nav
-      class="p-5 bg-dark-bg shadow md:flex md:items-center md:justify-between container mx-auto"
+      class="p-5 bg-color-light dark:bg-dark-bg md:flex md:items-center md:justify-between container mx-auto"
     >
       <div class="flex justify-between items-center">
         <span class="text-3xl cursor-pointer mx-2 md:hidden block">
           <i
-            class="fa-solid fa-bars text-slate-600"
+            class="fa-solid fa-bars dark:text-slate-600 text-lightMode-blue"
             name="menu"
             onclick="Menu(this)"
           ></i>
@@ -38,26 +38,27 @@
       </div>
 
       <ul
-        class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-dark-bg w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500"
+        class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-color-light dark:bg-dark-bg w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 
+        pl-7 md:opacity-100 opacity-0 top-[-400px]"
       >
         <li class="mx-4 my-6 md:my-0">
           <a
-            href="#"
-            class="text-base text-slate-600 font-bold hover:text-main-pink duration-200"
+            href="#about"
+            class="text-base dark:text-slate-600 text-lightMode-blue font-bold hover:text-main-pink duration-200"
             >Sobre mim</a
           >
         </li>
         <li class="mx-4 my-6 md:my-0">
           <a
-            href="#"
-            class="text-base text-slate-600 font-bold hover:text-main-pink duration-200"
+            href="#projects"
+            class="text-base dark:text-slate-600 text-lightMode-blue font-bold hover:text-main-pink duration-200"
             >Projetos</a
           >
         </li>
         <li class="mx-4 my-6 md:my-0">
           <a
-            href="#"
-            class="text-base text-slate-600 font-bold hover:text-main-pink duration-200"
+            href="#contact"
+            class="text-base dark:text-slate-600 text-lightMode-blue font-bold hover:text-main-pink duration-200"
             >Contato</a
           >
         </li>
@@ -67,8 +68,8 @@
         <li class="mx-4 my-6 md:my-0">
           <button id="" class="">
             <i
-              class="fa-solid fa-sun text-slate-600 hover:text-main-pink transition-colors"
-            ></i>
+              class="fa-solid fa-sun sun dark:text-slate-600 text-lightMode-blue hover:text-main-pink transition-colors"></i>
+              <i class="fa-solid fa-moon moon dark:text-slate-600 text-lightMode-blue hover:text-main-pink transition-colors"></i>
           </button>
         </li>
         <li class="mx-4 my-6 md:my-0">
@@ -80,7 +81,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="size-5 text-slate-600 hover:text-main-pink transition-colors"
+                class="size-5 dark:text-slate-600 text-lightMode-blue hover:text-main-pink transition-colors"
               >
                 <path
                   stroke-linecap="round"
@@ -91,20 +92,18 @@
             </a>
           </button>
         </li>
-
-        <h2 class=""></h2>
       </ul>
     </nav>
 
     <section class="container mx-auto mb-20">
       <div class="flex flex-col items-center text-center gap-4">
-        <h2 class="text-slate-800 text-xl font-bold -mb-3 md:text-3xl">Olá, sou o Arthur.</h2>
+        <h2 class="dark:text-slate-800 text-lightMode-blue text-xl font-bold -mb-3 md:text-3xl">Olá, sou o Arthur.</h2>
         <h1
-          class="text-slate-400 font-bold text-5xl uppercase tracking-tighter leading-10 md:text-7xl lg:text-9xl"
+          class="dark:text-slate-400 lightMode-black font-bold text-5xl uppercase tracking-tighter leading-10 md:text-7xl lg:text-9xl"
         >
           FRONT-END <br />DEVELOPER
         </h1>
-        <p class="text-slate-600 text-base text-center md:text-lg">
+        <p class="dark:text-slate-600 text-lightMode-blue text-base text-center md:text-lg">
           Apaixonado pelo
           <span class="text-main-blue font-bold">Front-end</span> amo inovar
           construindo sites e apps interativos e responsivos.
@@ -118,22 +117,22 @@
     </section>
 
     <section class="container mx-auto mt-20 items-center flex flex-col gap-4 md:items-start lg:gap-4">
-      <div class="gap-3 flex flex-col mx-3 md:gap-2">
-        <h1 class="text-slate-400 text-xl md:text-2xl lg:text-3xl">Sobre mim</h1>
-        <p class="text-slate-600 font-normal text-base md:leading-6 md:w-3/5 lg:w-4/5 lg:text-lg">
+      <div class="gap-3 flex flex-col mx-3 md:gap-2" id="about">
+        <h1 class="dark:text-slate-400 lightMode-black text-xl md:text-2xl lg:text-3xl">Sobre mim</h1>
+        <p class="dark:text-slate-600 text-lightMode-blue font-normal text-base md:leading-6 md:w-3/5 lg:w-4/5 lg:text-lg">
           Prazer! Eu sou o Arthur Amaral de Medeiros, um
           <span class="font-bold text-main-blue md:tracking-tighter">Desenvolvedor Front-end</span>
           morando em São Paulo, Brasil.
         </p>
-        <p class="text-slate-600 font-normal text-base md:leading-6 md:w-3/5 lg:w-4/5 lg:text-lg">
+        <p class="dark:text-slate-600 text-lightMode-blue font-normal text-base md:leading-6 md:w-3/5 lg:w-4/5 lg:text-lg">
           Estou no último ano do curso de Web Design da FIAP e estagiando na
           área do desenvolvimento Front-end.
         </p>
       </div>
       <div class="w-11/12 bg-slate-500 h-1px md:w-3/5 lg:w-4/5"></div>
-      <h2 class="text-slate-400 w-full px-3 text-lg md:text-2xl lg:text-3xl">Competências</h2>
+      <h2 class="dark:text-slate-400 lightMode-black w-full px-3 text-lg md:text-2xl lg:text-3xl">Competências</h2>
       <div
-        class="flex flex-col text-slate-600 font-normal justify-between w-full md:gap-1 lg:text-lg"
+        class="flex flex-col dark:text-slate-600 text-lightMode-blue font-normal justify-between w-full md:gap-1 lg:text-lg"
       >
         <ul class="mx-3 gap-1 flex flex-col mb-1 md:grid md:grid-cols-3 lg:grid-cols-4">
           <li class="">👍 HTML / CSS</li>
@@ -150,14 +149,14 @@
 
     <section class="container mx-auto mt-20">
       <div class="mx-3">
-        <h1 class="text-slate-400 text-lg mb-2 md:text-2xl lg:text-3xl">Experiência</h1>
-        <h2 class="text-slate-500 font-bold text-base md:text-lg">
+        <h1 class="dark:text-slate-400 lightMode-black text-lg mb-2 md:text-2xl lg:text-3xl">Experiência</h1>
+        <h2 class="dark:text-slate-500 text-lightMode-blue font-bold text-base md:text-lg">
           Estágio - Brahaus Global Marketing Co.
         </h2>
-        <p class="text-slate-500 font-bold text-base mb-2 md:text-lg">
+        <p class="dark:text-slate-500 text-lightMode-blue font-bold text-base mb-2 md:text-lg">
           Outubro/2024 - Abril/2025
         </p>
-        <p class="text-slate-600 font-normal lg:text-base lg:w-4/5">
+        <p class="dark:text-slate-600 text-lightMode-blue font-normal lg:text-base lg:w-4/5">
           Estágio como desenvolvedor frontend na Brahaus, consistiu em fazer
           alterações no site da empresa ou de contratantes, como correção de
           bugs, aprimoramento da experiência do usuário, criação de novas áreas
@@ -169,8 +168,8 @@
       </div>
     </section>
 
-    <div class="mt-20 mb-2">
-      <h1 class="text-slate-400 mx-3 mb-2 text-xl md:text-2xl lg:text-3xl xl:container xl:mx-auto xl:px-3">Projetos</h1>
+    <div class="mt-20 mb-2" id="projects">
+      <h1 class="dark:text-slate-400 lightMode-black mx-3 mb-2 text-xl md:text-2xl lg:text-3xl xl:container xl:mx-auto xl:px-3">Projetos</h1>
     </div>
 
     <section class="container mx-auto lg:w-10/12">
@@ -178,15 +177,15 @@
       <div class="px-3 flex flex-col gap-10 md:gap-10 container lg:grid lg:grid-cols-2">
 
         <div class="flex flex-col gap-3  md:items-center lg:justify-end">
-          <img src="./img/cic.png" alt="Imagem do site da CIC" class="text-slate-600 rounded-sm img-projects max-w-96 md:w-1/2  projetos-card-img
+          <img src="./img/cic.png" alt="Imagem do site da CIC" class="dark:text-slate-600 text-lightMode-blue rounded-sm img-projects max-w-96 md:w-1/2  projetos-card-img
           lg:mx-0 justify-end lg:w-full h-full" />
           <div class="flex flex-col md:gap-2">
 
-            <h1 class="text-slate-400 w-full text-center text-lg uppercase md:text-2xl">CIC Site</h1>
-            <h3 class="text-slate-600 text-center font-normal text-sm">
+            <h1 class="dark:text-slate-400 lightMode-black w-full text-center text-lg uppercase md:text-2xl">CIC Site</h1>
+            <h3 class="dark:text-slate-600 text-lightMode-blue text-center font-normal text-sm">
               A CIC é uma empresa de controle de finanças
             </h3>
-            <p class="text-slate-500 text-center font-normal text-base lg:mx-auto md:w-4/5 md:mx-auto lg:w-full ">
+            <p class="dark:text-slate-500 text-lightMode-blue text-center font-normal text-base lg:mx-auto md:w-4/5 md:mx-auto lg:w-full ">
               Sabendo que ela possuia uma interface nichada e pouco intuitiva, junto com a FIAP, resolvemos esse problema!
             </p>
             <a href="" class="font-bold text-sm bg-main-pink rounded-lg text-white flex justify-center h-9 items-center 
@@ -195,16 +194,16 @@
         </div>
 
         <div class="flex flex-col gap-3  md:items-center">
-          <img src="./img/myplace.jpg" alt="Imagem do MyPlace" class="text-slate-600 rounded-sm img-projects max-w-96 md:w-1/2  projetos-card-img
+          <img src="./img/myplace.jpg" alt="Imagem do MyPlace" class="dark:text-slate-600 text-lightMode-blue rounded-sm img-projects max-w-96 md:w-1/2  projetos-card-img
           lg:mx-0 justify-end lg:w-full h-full" />
           <div class="flex flex-col md:gap-2">
-            <h1 class="text-slate-400 w-full text-center text-lg uppercase">
+            <h1 class="dark:text-slate-400 lightMode-black w-full text-center text-lg uppercase">
               MyPlace
             </h1>
-            <h3 class="text-slate-600 text-center font-normal text-sm">
+            <h3 class="dark:text-slate-600 text-lightMode-blue text-center font-normal text-sm">
               O MyPlace é somente um site de estudo.
             </h3>
-            <p class="text-slate-500 text-center font-normal text-base lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto">
+            <p class="dark:text-slate-500 text-lightMode-blue text-center font-normal text-base lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto">
               Eu o fiz usando conceitos de HTML, CSS e JavaScript. O site é totalmente responsivo.
             </p>
             <a href="" class="font-bold text-sm bg-main-pink rounded-lg text-white flex justify-center h-9 items-center 
@@ -213,16 +212,16 @@
         </div>
 
         <div class="flex flex-col gap-3  md:items-center">
-          <img src="./img/mymusic.jpg" alt="Imagem do MyMusic" class="text-slate-600 rounded-sm img-projects max-w-96 md:w-1/2  projetos-card-img
+          <img src="./img/mymusic.jpg" alt="Imagem do MyMusic" class="dark:text-slate-600 text-lightMode-blue rounded-sm img-projects max-w-96 md:w-1/2  projetos-card-img
           lg:mx-0 justify-end lg:w-full h-full" />
           <div class="flex flex-col md:gap-2">
-            <h1 class="text-slate-400 w-full text-center text-lg uppercase">
+            <h1 class="dark:text-slate-400 lightMode-black w-full text-center text-lg uppercase">
               MyMusic
             </h1>
-            <h3 class="text-slate-600 text-center font-normal text-sm ">
+            <h3 class="dark:text-slate-600 text-lightMode-blue text-center font-normal text-sm ">
               O MyMusic foi apenas um projeto da faculdade.
             </h3>
-            <p class="text-slate-500 text-center font-normal text-base lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto">
+            <p class="dark:text-slate-500 text-lightMode-blue text-center font-normal text-base lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto">
               Eu o desenvolvi usando HTML, CSS e JavaScript, incluindo sua responsividade em qualquer dispositivo.
             </p>
             <a href="" class="font-bold text-sm bg-main-pink rounded-lg text-white flex justify-center h-9 items-center 
@@ -231,16 +230,16 @@
           </div>
         
         <div class="flex flex-col gap-3  md:items-center">
-          <img src="./img/image.jpg" alt="Imagem do meu portfólio antigo" class="text-slate-600 rounded-sm img-projects max-w-96 md:w-1/2  projetos-card-img
+          <img src="./img/image.jpg" alt="Imagem do meu portfólio antigo" class="dark:text-slate-600 text-lightMode-blue rounded-sm img-projects max-w-96 md:w-1/2  projetos-card-img
           lg:mx-0 justify-end lg:w-full h-full" />
           <div class="flex flex-col md:gap-2 ">
-            <h1 class="text-slate-400 w-full text-center text-lg uppercase">
+            <h1 class="dark:text-slate-400 lightMode-black w-full text-center text-lg uppercase">
               Portfólio Pessoal antigo
             </h1>
-            <h3 class="text-slate-600 text-center font-normal text-sm">
+            <h3 class="dark:text-slate-600 text-lightMode-blue text-center font-normal text-sm">
               Esse foi meu primeiro Portfólio pessoal.
             </h3>
-            <p class="text-slate-500 text-center font-normal text-base lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto">
+            <p class="dark:text-slate-500 text-lightMode-blue text-center font-normal text-base lg:w-4/5 lg:mx-auto md:w-4/5 md:mx-auto">
               Meu primeiro Portfólio pessoal, simples, porém com conceitos de HTML, CSS e JS. Ele é completamente responsivo.
             </p>
             <a href="" class="font-bold text-sm bg-main-pink rounded-lg text-white flex justify-center h-9 items-center 
@@ -252,10 +251,10 @@
 
     </section>
 
-    <section class="container mx-auto mt-20 gap-2 flex flex-col">
+    <section class="container mx-auto mt-20 gap-2 flex flex-col" id="contact">
       <div class="mx-3">
-        <h1 class="text-slate-400 text-xl text-center md:text-2xl lg:text-3xl">Contato</h1>
-        <p class="text-center text-slate-600 font-normal text-base md:text-lg lg:text-xl">Caso queira entrar em contato, sinta-se à vontade!</p>
+        <h1 class="dark:text-slate-400 lightMode-black text-xl text-center md:text-2xl lg:text-3xl">Contato</h1>
+        <p class="text-center dark:text-slate-600 text-lightMode-blue font-normal text-base md:text-lg lg:text-xl">Caso queira entrar em contato, sinta-se à vontade!</p>
       </div>
       <div class="text-main-pink text-center text-lg gap-2 flex justify-center w-full mx-auto md:text-xl md:gap-3 md:mb-2">
         <a href="https://www.linkedin.com/in/arthur-medeiros-0a420a2b6/"><i class="fa-brands fa-linkedin"></i></a>
@@ -265,6 +264,7 @@
       </div>
     </section>
 
+    <script src="./js/darkMode.js"></script>
     <script src="./js/mobileNav.js"></script>
     <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
   </body>
