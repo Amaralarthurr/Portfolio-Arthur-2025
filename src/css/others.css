@@ -24,6 +24,13 @@ body::-webkit-scrollbar-thumb {
   0 2px 6px rgba(225, 29, 72, 0.5), 0 0 100px -10px #e11d48;
 }
 
+
+@media (min-width: 1024px){
+  .hero{
+    height: 80vh;
+  }
+}
+
 @media (min-width: 425px){
   .projetos-card-img{
     margin-left: auto;
