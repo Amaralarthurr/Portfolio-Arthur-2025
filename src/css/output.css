@@ -734,6 +734,14 @@ video {
   margin-top: 1.5rem;
 }
 
+.-mb-2 {
+  margin-bottom: -0.5rem;
+}
+
+.-mb-1 {
+  margin-bottom: -0.25rem;
+}
+
 .block {
   display: block;
 }
@@ -1136,12 +1144,12 @@ video {
   text-align: end;
 }
 
-.font-lato-bold {
-  font-family: Lato-bold, sans-serif;
-}
-
 .font-lato {
   font-family: Lato, sans-serif;
+}
+
+.font-lato-bold {
+  font-family: Lato-bold, sans-serif;
 }
 
 .text-2xl {
@@ -1214,11 +1222,39 @@ video {
   line-height: 2.5rem;
 }
 
+.leading-9 {
+  line-height: 2.25rem;
+}
+
 .leading-tight {
   line-height: 1.25;
 }
 
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
 .tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.-tracking-widest {
+  letter-spacing: -0.1em;
+}
+
+.-tracking-wider {
   letter-spacing: -0.05em;
 }
 
