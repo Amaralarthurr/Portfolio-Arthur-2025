@@ -1,5 +1,10 @@
 *{
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;;
+}
+
+body::selection{
+  background-color: rgba(225, 29, 72, 0.85);
+  color: #fff;
 }
 
 body::-webkit-scrollbar {

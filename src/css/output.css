@@ -803,16 +803,12 @@ video {
   width: 1.5rem;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-80 {
   width: 20rem;
 }
 
-.w-32 {
-  width: 8rem;
+.w-full {
+  width: 100%;
 }
 
 .max-w-7xl {
@@ -1461,12 +1457,12 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:w-full {
-    width: 100%;
-  }
-
   .sm\:w-96 {
     width: 24rem;
+  }
+
+  .sm\:w-full {
+    width: 100%;
   }
 
   .sm\:max-w-7xl {
@@ -1547,10 +1543,6 @@ video {
 
   .md\:w-auto {
     width: auto;
-  }
-
-  .md\:w-full {
-    width: 100%;
   }
 
   .md\:grid-cols-3 {
@@ -1808,10 +1800,6 @@ video {
 
   .xl\:w-full {
     width: 100%;
-  }
-
-  .xl\:w-96 {
-    width: 24rem;
   }
 
   .xl\:flex-row {
