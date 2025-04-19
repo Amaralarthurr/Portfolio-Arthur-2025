@@ -1,0 +1,19 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.glow {
+  text-shadow: 0 0 15px #00f0ff;
+}
+
+.glowSubtitle {
+  text-shadow: 0 0 8px #00f0ff;
+}
