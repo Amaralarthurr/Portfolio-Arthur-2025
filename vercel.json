@@ -1,8 +1,6 @@
 {
     "rewrites": [
-      {
-        "source": "/Voltaris-GS",
-        "destination": "/Voltaris-GS/index.html"
-      }
+      { "source": "/Voltaris-GS", "destination": "/Voltaris-GS/index.html" },
+      { "source": "/Portal-Synthetica", "destination": "/projects/Portal-Synthetica/index.html" }
     ]
   }
